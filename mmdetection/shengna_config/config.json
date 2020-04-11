@@ -1,0 +1,30 @@
+[
+    {
+        "config": "best_model/shengna/ohem/cascade_r50_focal_ohem.py",
+        "model": "best_model/shengna/ohem/epoch_12.pth",
+        "use":true,
+        "target": 0.001,
+        "target_weight": 1.0
+    },
+    {
+        "config": "best_model/shengna/1_1.5/cascade_r50_c100.py",
+        "model": "best_model/shengna/1_1.5/epoch_12.pth",
+        "use": true,
+        "target": 0.001,
+        "target_weight": 0.95
+    },
+    {
+        "config": "best_model/shengna/1.25_1.75/cascade_r50_c125.py",
+        "model": "best_model/shengna/1.25_1.75/epoch_12.pth",
+        "use": true,
+        "target": 0.001,
+        "target_weight": 1.0
+    },
+    {
+        "config": "best_model/shengna/r101/cascade_r101_dcn_gcb.py",
+        "model": "best_model/shengna/r101/epoch_12.pth",
+        "use": true,
+        "target": 0.001,
+        "target_weight": 0.95
+    }
+]
