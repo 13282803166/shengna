@@ -242,6 +242,6 @@ total_epochs = 12
 dist_params = dict(backend='nccl')
 log_level = 'INFO'
 work_dir = 'shengna_model/focal_ohem_c1.0_1.5'
-load_from = 'pretrained/r50_dcn_c2.pth'
+load_from = 'pretrained/cascade_rcnn_dconv_c3-c5_r50_fpn_1x_20190125-dfa53166.pth'
 resume_from = None
 workflow = [('train', 1)]
